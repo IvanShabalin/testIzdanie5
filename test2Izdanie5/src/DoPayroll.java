@@ -4,7 +4,7 @@ import java.io.IOException;
 
 public class DoPayroll {
     public static void main(String[] args) throws IOException {
-        Scanner diskScanner= new Scanner(new File("EmployeeInfo.txt"));
+        Scanner diskScanner= new Scanner(new File("D:\\Shabalin\\idealC\\testIzdanie5\\test2Izdanie5\\src\\EmployeeInfo.txt"));
         for (int empNum = 1; empNum <=3; empNum++) {
             payOneEmployee(diskScanner);
         }
